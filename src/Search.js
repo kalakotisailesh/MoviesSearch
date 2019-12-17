@@ -20,6 +20,7 @@ class Search extends Component {
     this.state= {
          value:'',
          metalBody: '',
+         newVal: '',
     }
     this.onValChange = this.onValChange.bind(this);
     this.onButtonClick = this.onButtonClick.bind(this); 
